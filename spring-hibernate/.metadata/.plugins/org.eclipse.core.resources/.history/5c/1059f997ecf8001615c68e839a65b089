@@ -1,0 +1,39 @@
+package com.scope.banking.entities;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+
+public class Bank {
+
+	private String id;
+	private String bankName;
+	@Autowired
+	private Customer customer;
+	
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
+	}
+	public String getBankName() {
+		return bankName;
+	}
+	public void setBankName(String bankName) {
+		this.bankName = bankName;
+	}
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append("Bank [id=");
+		builder.append(id);
+		builder.append(", bankName=");
+		builder.append(bankName);
+		builder.append(", customer=");
+		builder.append(customer);
+		builder.append("]");
+		return builder.toString();
+	}
+	
+	
+}

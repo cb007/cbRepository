@@ -1,0 +1,7 @@
+package com.scope.banking.entities;
+
+public class Customer {
+
+	private int customerId;
+	
+}

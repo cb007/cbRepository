@@ -1,0 +1,46 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+	<context:annotation-config />
+	<context:component-scan base-package="com.scope.banking"></context:component-scan>
+
+	<bean id="perm" class="com.scope.banking.entities.Address">
+		<constructor-arg index="0" value="street1"></constructor-arg>
+		<constructor-arg index="1" value="city1"></constructor-arg>
+		<constructor-arg index="2" value="state1"></constructor-arg>
+		<constructor-arg index="3" value="600024"></constructor-arg>
+	</bean>
+	<bean id="res" class="com.scope.banking.entities.Address">
+		<constructor-arg index="0" value="street2"></constructor-arg>
+		<constructor-arg index="1" value="city2"></constructor-arg>
+		<constructor-arg index="2" value="state2"></constructor-arg>
+		<constructor-arg index="3" value="600025"></constructor-arg>
+	</bean>
+
+	<bean id="contactInfo" class="com.scope.banking.entities.ContactInfo">
+		<property name="mobile" value="9600147576"></property>
+		<property name="landline" value="044-2456765"></property>
+		<property name="email" value="abc@sc.com"></property>
+	</bean>
+
+	<bean id="customer" class="com.scope.banking.entities.Customer">
+		<constructor-arg index="0" value="1479825" type="int"></constructor-arg>
+		<constructor-arg index="1" value="Balaji"></constructor-arg>
+		<constructor-arg index="5" value="2000/02/09"></constructor-arg>
+	</bean>
+	
+	<bean id="customer" class="com.scope.banking.entities.Customer">
+		<constructor-arg index="0" value="1479825" type="int"></constructor-arg>
+		<constructor-arg index="1" value="Balaji"></constructor-arg>
+		<constructor-arg index="5" value="2000/02/09"></constructor-arg>
+	</bean>
+	
+	<bean id="bank" class="com.scope.banking.entities.Bank">
+		<property name="id" value="HDFC000136"></property>
+		<property name="bankName" value="HDFC"></property>
+	</bean>
+</beans>

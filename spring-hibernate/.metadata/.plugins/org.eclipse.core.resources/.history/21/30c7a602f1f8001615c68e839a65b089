@@ -1,0 +1,21 @@
+package com.scope.banking.utility;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.scope.banking.entities.Account;
+import com.scope.banking.entities.Bank;
+
+public class MainApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		ApplicationContext applicationContext= new ClassPathXmlApplicationContext("application-context.xml");
+		Bank bank = (Bank) applicationContext.getBean("bank");
+		System.out.println("Bank Annotated details:" + bank);
+		Account account=(Account)applicationContext.getBean("accountType");
+
+	}
+
+}

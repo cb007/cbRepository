@@ -1,0 +1,8 @@
+package com.scope.banking.entities;
+
+public class Bank {
+
+	private String id;
+	private String bankName;
+	private String List<Customer> customerList;
+}

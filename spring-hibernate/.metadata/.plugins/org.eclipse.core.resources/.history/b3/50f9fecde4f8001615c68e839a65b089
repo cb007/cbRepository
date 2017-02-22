@@ -1,0 +1,67 @@
+package com.scope.banking.entities;
+
+import java.util.Date;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+
+public class Customer {
+
+	private int customerId;
+	private String name;
+	
+	@Qualifier(value="permAddress")
+	private Address perm;
+	@Qualifier(value="resAddress")
+	private Address res;
+	private ContactInfo contactInfo;
+	private Date dob;
+	
+	@Autowired
+	Customer(int customerId, String name, Address perm, Address res, ContactInfo contactInfo, Date dob)
+	{
+		this.customerId=customerId;
+		this.name=name;
+		this.perm=perm;
+		this.res=res;
+		this.contactInfo=contactInfo;
+		this.dob=dob;
+	}
+
+	public int getCustomerId() {
+		return customerId;
+	}
+
+	
+	public String getName() {
+		return name;
+	}
+
+	
+	public Date getDob() {
+		return dob;
+	}
+
+	public Address getPerm() {
+		return perm;
+	}
+
+	public Address getRes() {
+		return res;
+	}
+
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append("Customer [customerId=").append(customerId)
+				.append(", name=").append(name).append(", perm=").append(perm)
+				.append(", res=").append(res).append(", contactInfo=")
+				.append(contactInfo).append(", dob=").append(dob).append("]");
+		return builder.toString();
+	}
+
+	
+
+	
+	
+}

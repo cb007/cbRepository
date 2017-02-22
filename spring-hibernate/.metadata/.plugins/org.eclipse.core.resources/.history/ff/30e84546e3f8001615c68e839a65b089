@@ -1,0 +1,57 @@
+package com.scope.banking.entities;
+
+import java.util.Date;
+
+public class Customer {
+
+	private int customerId;
+	private String name;
+	private Address perm;
+	private Address res;
+	private ContactInfo contactInfo;
+	private Date dob;
+	
+	Customer(int customerId, String name, Address perm, Address res, ContactInfo contactInfo, Date dob)
+	{
+		this.customerId=customerId;
+		this.name=name;
+		this.perm=perm;
+		this.res=res;
+		this.contactInfo=contactInfo;
+		this.dob=dob;
+	}
+
+	public int getCustomerId() {
+		return customerId;
+	}
+
+	
+	public String getName() {
+		return name;
+	}
+
+	
+	public Date getDob() {
+		return dob;
+	}
+
+	public Address getPerm() {
+		return perm;
+	}
+
+	public Address getRes() {
+		return res;
+	}
+
+	@Override
+	public String toString() {
+		return String
+				.format("Customer [customerId=%s, name=%s, perm=%s, res=%s, contactInfo=%s, dob=%s]",
+						customerId, name, perm, res, contactInfo, dob);
+	}
+
+	
+
+	
+	
+}

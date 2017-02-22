@@ -1,0 +1,7 @@
+package com.scope.banking.entities;
+
+public class Address {
+
+	private String street;
+	private String city;
+}

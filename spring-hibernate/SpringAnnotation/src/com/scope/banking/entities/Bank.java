@@ -1,0 +1,66 @@
+package com.scope.banking.entities;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Bean;
+
+
+public class Bank {
+
+	private String id;
+	private String bankName;
+	@Autowired
+	@Qualifier(value="customer1")
+	//Without using qualifier - property and bean name should be same
+	private Customer customer;
+	
+	@Autowired
+	@Qualifier("customer2")
+	//Without using qualifier - property and bean name should be same
+	private Customer cust;
+	
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
+	}
+	public String getBankName() {
+		return bankName;
+	}
+	public void setBankName(String bankName) {
+		this.bankName = bankName;
+	}
+	
+	public Customer getCustomer() {
+		return customer;
+	}
+	
+	public Customer getCust() {
+		return cust;
+	}
+	
+	@Bean
+	public DataSource getInstance()
+	{
+		return new DataSource();
+	}
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append("Bank [id=");
+		builder.append(id);
+		builder.append(", bankName=");
+		builder.append(bankName);
+		builder.append(", customer=");
+		builder.append(customer);
+		builder.append(", cust=");
+		builder.append(cust);
+		builder.append("]");
+		return builder.toString();
+	}
+	
+	
+	
+	
+}

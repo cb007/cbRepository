@@ -1,0 +1,12 @@
+package com.scope.banking.entities;
+
+import java.util.List;
+
+public class Bank {
+
+	private String id;
+	private String bankName;
+	private List<Customer> customerList;
+
+	
+}

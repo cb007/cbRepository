@@ -1,0 +1,22 @@
+package com.scope.banking.utility;
+
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.beans.factory.xml.XmlBeanFactory;
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.Resource;
+
+import com.scope.banking.entities.Customer;
+
+public class MainApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Resource resource = new ClassPathResource("application-context.xml");
+		BeanFactory beanFactory = new XmlBeanFactory(resource);
+		Customer customer = (Customer) beanFactory.getBean("customer");
+		System.out.println("Customer details:" + customer);
+
+	}
+
+}

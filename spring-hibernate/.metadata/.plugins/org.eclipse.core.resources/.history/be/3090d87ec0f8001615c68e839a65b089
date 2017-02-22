@@ -1,0 +1,14 @@
+package com.scope.banking.implementations;
+
+import com.scope.banking.interfaces.Transaction;
+
+public class CreditCardTransaction implements Transaction {
+
+	@Override
+	public String payment(int amount) {
+		// TODO Auto-generated method stub
+		String status=null;
+		return null;
+	}
+
+}

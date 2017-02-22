@@ -1,0 +1,15 @@
+package com.scope.banking.implementations;
+
+import com.scope.banking.interfaces.Transaction;
+
+public class DebitCardTransaction implements Transaction {
+
+	@Override
+	public String payment(int amount) {
+		// TODO Auto-generated method stub
+		if(amount>1000)
+			return "payment successfully done";
+		return null;
+	}
+
+}

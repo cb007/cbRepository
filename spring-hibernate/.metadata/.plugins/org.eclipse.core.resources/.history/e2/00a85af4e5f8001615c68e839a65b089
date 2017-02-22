@@ -1,0 +1,20 @@
+package com.scope.banking.utility;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.AbstractApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.scope.banking.entities.Customer;
+
+public class MainApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		ApplicationContext applicationContext= new ClassPathXmlApplicationContext("application-context.xml");
+		Customer customer = (Customer) applicationContext.getBean("customer");
+		System.out.println("Customer Annotated details:" + customer);
+
+	}
+
+}

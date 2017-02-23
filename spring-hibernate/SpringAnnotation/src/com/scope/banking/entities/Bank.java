@@ -19,6 +19,15 @@ public class Bank {
 	//Without using qualifier - property and bean name should be same
 	private Customer cust;
 	
+	/*@Resource
+	private List<Customer> customerList;
+	
+	public List<Customer> getCustomerList() {
+		return customerList;
+	}
+	public void setCustomerList(List<Customer> customerList) {
+		this.customerList = customerList;
+	}*/
 	public String getId() {
 		return id;
 	}
@@ -45,21 +54,6 @@ public class Bank {
 	{
 		return new DataSource();
 	}
-	@Override
-	public String toString() {
-		StringBuilder builder = new StringBuilder();
-		builder.append("Bank [id=");
-		builder.append(id);
-		builder.append(", bankName=");
-		builder.append(bankName);
-		builder.append(", customer=");
-		builder.append(customer);
-		builder.append(", cust=");
-		builder.append(cust);
-		builder.append("]");
-		return builder.toString();
-	}
-	
 	
 	
 	

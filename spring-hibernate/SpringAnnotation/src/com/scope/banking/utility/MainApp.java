@@ -19,12 +19,15 @@ public class MainApp {
 		
 
 		Bank bank = (Bank) applicationContext.getBean("bank");
-		Account account = bank.getCustomer().getAccount();
+		/*Account account = bank.getCustomer().getAccount();
 		account.setAccountNo(12321321);
 		account.setAccountType("Savings");
-		account.setBalance(100000);
+		account.setBalance(100000);*/
 		System.out.println("Bank Annotated details:" + bank);
 		DataSource ds=bank.getInstance();
+		AddressProofCreator addressProofCreator=(AddressProofCreator) applicationContext.getBean("addressProofCreator");
+		addressProofCreator.createProof("First", 1);
+		addressProofCreator.createProof("Second", 2);
 
 	}
 

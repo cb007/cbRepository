@@ -1,0 +1,7 @@
+package com.scope.banking.utilities;
+
+import org.springframework.jdbc.core.RowMapper;
+
+public class CustomerRowMapper implements RowMapper<T>{
+
+}

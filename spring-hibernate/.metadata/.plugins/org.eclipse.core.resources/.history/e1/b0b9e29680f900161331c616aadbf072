@@ -1,0 +1,32 @@
+package com.scope.banking.utility;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.scope.banking.entities.Account;
+import com.scope.banking.entities.Bank;
+import com.scope.banking.entities.DataSource;
+
+public class MainApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		ApplicationContext applicationContext = new ClassPathXmlApplicationContext(
+				"application-context.xml");
+
+		/*Account account = (Account) applicationContext.getBean("accounts");*/
+		
+
+		Bank bank = (Bank) applicationContext.getBean("bank");
+		/*Account account = bank.getCustomer().getAccount();
+		account.setAccountNo(12321321);
+		account.setAccountType("Savings");
+		account.setBalance(100000);*/
+		System.out.println("Bank Annotated details:" + bank);
+		DataSource ds=bank.getInstance();
+		AddressProofCreator addressProofCreator=(AddressProofCreator) applicationContext.getBean("addressProofCreator");
+
+	}
+
+}

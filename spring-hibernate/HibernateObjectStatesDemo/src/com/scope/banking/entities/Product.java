@@ -1,0 +1,76 @@
+package com.scope.banking.entities;
+
+import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
+
+@Entity
+@Table(name = "Product")
+public class Product {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "Product_Id", nullable = false)
+	private int productId;
+	@Column(name = "Product_Name", nullable = false)
+	private String productName;
+	@Column(name = "Rate", nullable = false)
+	private long rate;
+	@Temporal(TemporalType.DATE)
+	@Column(name = "Date_Of_Purchase", nullable = false)
+	private Date dop;
+	@ManyToOne(fetch = FetchType.LAZY)
+	@JoinColumn(name = "Order_Id", nullable = false)
+	private Order order;
+
+	public int getProductId() {
+		return productId;
+	}
+
+	public void setProductId(int productId) {
+		this.productId = productId;
+	}
+
+	public String getProductName() {
+		return productName;
+	}
+
+	public void setProductName(String productName) {
+		this.productName = productName;
+	}
+
+	public long getRate() {
+		return rate;
+	}
+
+	public void setRate(long rate) {
+		this.rate = rate;
+	}
+
+	public Date getDop() {
+		return dop;
+	}
+
+	public void setDop(Date dop) {
+		this.dop = dop;
+	}
+
+	public Order getOrder() {
+		return order;
+	}
+
+	public void setOrder(Order order) {
+		this.order = order;
+	}
+
+}

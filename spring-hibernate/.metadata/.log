@@ -146,3 +146,1081 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2017-02-23 09:13:36.754 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jst.jsf.apache.trinidad.tagsupport 4 0 2017-02-23 09:13:38.879
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.jsf.apache.trinidad.tagsupport [449]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.pagedesigner; bundle-version="[1.1.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.pagedesigner; bundle-version="1.6.200.v201409302017"; singleton:="true"
+       org.eclipse.jst.pagedesigner [463]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.core; bundle-version="[1.0.0,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.jsf.facelet.core 4 0 2017-02-23 09:13:38.895
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.jsf.facelet.core [454]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.core
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.jsf.facelet.ui 4 0 2017-02-23 09:13:38.895
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.jsf.facelet.ui [455]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.core; bundle-version="1.0.1"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.jsf.facesconfig.ui 4 0 2017-02-23 09:13:38.910
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.jsf.facesconfig.ui [457]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.core; bundle-version="[1.1.0,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.jsf.ui 4 0 2017-02-23 09:13:38.910
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.jsf.ui [459]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.core; bundle-version="[1.1.0,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.pagedesigner 4 0 2017-02-23 09:13:38.942
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.pagedesigner [463]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.core; bundle-version="[1.0.0,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.pagedesigner.jsf.ui 4 0 2017-02-23 09:13:38.957
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.pagedesigner.jsf.ui [464]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.pagedesigner; bundle-version="[1.1.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.pagedesigner; bundle-version="1.6.200.v201409302017"; singleton:="true"
+       org.eclipse.jst.pagedesigner [463]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.core; bundle-version="[1.0.0,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.m2e.wtp.jsf 4 0 2017-02-23 09:13:38.957
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.m2e.wtp.jsf [545]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.core; bundle-version="1.3.4"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-02-23 09:14:28.713
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Admin'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 4 4 2017-02-23 12:30:02.697
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2017-02-23 12:30:02.697
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2017-02-23 12:30:02.697
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2017-02-23 12:30:02.712
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2017-02-23 12:30:02.712
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2017-02-23 12:30:02.712
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2017-02-23 12:32:54.033
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2017-02-23 12:32:54.049
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2017-02-23 12:32:54.049
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2017-02-23 12:32:54.049
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2017-02-23 12:32:54.049
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2017-02-23 12:32:54.065
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
+
+!ENTRY org.eclipse.jdt.core 2 0 2017-02-23 15:06:40.222
+!MESSAGE The Java indexing could not index D:/workspace/cb/spring-hibernate/SpringMVCDemo/WebContent/WEB-INF/lib/icu4j-2.6.1.jar|com/ibm/icu/impl/data/LocaleElements_zh__PINYIN.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2017-02-23 15:20:53.677
+!MESSAGE Port 8080 required by Tomcat v7.0 Server at localhost is already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Publishing failed with multiple errors
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\activation-1.0.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\antlr-2.7.6.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\aopalliance-1.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\asm-3.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\asm-attrs-1.5.3.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\aspectjrt-1.6.11.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\aspectjweaver-1.6.11.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\cglib-2.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\cglib-nodep-2.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\commons-beanutils-1.7.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\commons-collections-3.2.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\commons-dbcp-1.4.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\commons-digester-1.8.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\commons-email-1.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\commons-fileupload-1.1.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\commons-io-1.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\commons-lang-2.5.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\commons-logging-1.1.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\commons-logging.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\commons-pool-1.5.4.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\dom4j-1.6.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\dumbster-1.6.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\easymock-3.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\ehcache-1.2.3.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\hibernate-3.2.6.ga.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\hibernate-annotations-3.3.1.GA.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\hibernate-commons-annotations-3.0.0.ga.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\hibernate-entitymanager-3.3.2.GA.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\hibernate-search-3.0.0.GA.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\hibernate-validator-4.0.2.GA.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\icu4j-2.6.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\javassist-3.4.GA.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\jaxb-api-2.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\jaxb-impl-2.1.3.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\jaxen-1.1.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\jdom-1.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\jstl-1.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\jta-1.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\junit-4.8.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\log4j-1.2.14.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\log4j-1.2.15.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\lucene-core-2.3.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\lucene-highlighter-2.0.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\mail-1.4.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\mysql-connector-java-5.0.5.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\mysql-connector-java-5.1.7-bin.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\objenesis-1.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\ojdbc5.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\persistence-api-1.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\quartz-1.5.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\slf4j-api-1.5.6.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\slf4j-log4j12-1.5.6.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\spring-aop-3.0.5.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\spring-asm-3.0.5.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\spring-beans-3.0.5.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\spring-context-3.0.5.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\spring-core-3.0.5.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\spring-expression-3.0.5.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\spring-jdbc-3.0.5.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\spring-modules-validation-0.8.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\spring-orm-3.0.5.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\spring-tx-3.0.5.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\spring-web-3.0.5.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\spring-webmvc-3.0.5.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\stax-api-1.0-2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\validation-api-1.0.0.GA.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\xalan-2.6.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\xercesImpl-2.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\xml-apis-1.3.02.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\xmlParserAPIs-2.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:34:34.667
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\xom-1.0.jar. May be locked by another process.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Publishing failed with multiple errors
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\activation-1.0.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\antlr-2.7.6.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\aopalliance-1.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\asm-3.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\asm-attrs-1.5.3.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\aspectjrt-1.6.11.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\aspectjweaver-1.6.11.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\cglib-2.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\cglib-nodep-2.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\commons-beanutils-1.7.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\commons-collections-3.2.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\commons-dbcp-1.4.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\commons-digester-1.8.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\commons-email-1.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\commons-fileupload-1.1.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\commons-io-1.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\commons-lang-2.5.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\commons-logging-1.1.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\commons-logging.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\commons-pool-1.5.4.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\dom4j-1.6.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\dumbster-1.6.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\easymock-3.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\ehcache-1.2.3.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\hibernate-3.2.6.ga.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\hibernate-annotations-3.3.1.GA.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\hibernate-commons-annotations-3.0.0.ga.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\hibernate-entitymanager-3.3.2.GA.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\hibernate-search-3.0.0.GA.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\hibernate-validator-4.0.2.GA.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\icu4j-2.6.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\javassist-3.4.GA.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\jaxb-api-2.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\jaxb-impl-2.1.3.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\jaxen-1.1.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\jdom-1.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\jstl-1.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\jta-1.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\junit-4.8.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\log4j-1.2.14.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\log4j-1.2.15.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\lucene-core-2.3.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\lucene-highlighter-2.0.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\mail-1.4.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\mysql-connector-java-5.0.5.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\mysql-connector-java-5.1.7-bin.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\objenesis-1.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\ojdbc5.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\persistence-api-1.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\quartz-1.5.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\slf4j-api-1.5.6.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\slf4j-log4j12-1.5.6.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\spring-aop-3.0.5.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\spring-asm-3.0.5.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\spring-beans-3.0.5.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\spring-context-3.0.5.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\spring-core-3.0.5.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\spring-expression-3.0.5.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\spring-jdbc-3.0.5.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\spring-modules-validation-0.8.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\spring-orm-3.0.5.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\spring-tx-3.0.5.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\spring-web-3.0.5.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\spring-webmvc-3.0.5.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\stax-api-1.0-2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\validation-api-1.0.0.GA.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\xalan-2.6.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\xercesImpl-2.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\xml-apis-1.3.02.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\xmlParserAPIs-2.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:23.334
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\xom-1.0.jar. May be locked by another process.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2017-02-23 15:43:31.960
+!MESSAGE Publishing failed with multiple errors
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.960
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\activation-1.0.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.960
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\antlr-2.7.6.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.960
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\aopalliance-1.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.960
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\asm-3.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.960
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\asm-attrs-1.5.3.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.960
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\aspectjrt-1.6.11.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\aspectjweaver-1.6.11.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\cglib-2.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\cglib-nodep-2.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\commons-beanutils-1.7.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\commons-collections-3.2.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\commons-dbcp-1.4.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\commons-digester-1.8.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\commons-email-1.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\commons-fileupload-1.1.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\commons-io-1.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\commons-lang-2.5.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\commons-logging-1.1.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\commons-logging.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\commons-pool-1.5.4.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\dom4j-1.6.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\dumbster-1.6.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\easymock-3.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\ehcache-1.2.3.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\hibernate-3.2.6.ga.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\hibernate-annotations-3.3.1.GA.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\hibernate-commons-annotations-3.0.0.ga.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\hibernate-entitymanager-3.3.2.GA.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\hibernate-search-3.0.0.GA.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\hibernate-validator-4.0.2.GA.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\icu4j-2.6.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\javassist-3.4.GA.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\jaxb-api-2.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\jaxb-impl-2.1.3.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\jaxen-1.1.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\jdom-1.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\jstl-1.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\jta-1.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\junit-4.8.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\log4j-1.2.14.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\log4j-1.2.15.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\lucene-core-2.3.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\lucene-highlighter-2.0.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\mail-1.4.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\mysql-connector-java-5.0.5.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\mysql-connector-java-5.1.7-bin.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\objenesis-1.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\ojdbc5.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\persistence-api-1.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\quartz-1.5.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\slf4j-api-1.5.6.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\slf4j-log4j12-1.5.6.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\spring-aop-3.0.5.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\spring-asm-3.0.5.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\spring-beans-3.0.5.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\spring-context-3.0.5.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\spring-core-3.0.5.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\spring-expression-3.0.5.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\spring-jdbc-3.0.5.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\spring-modules-validation-0.8.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\spring-orm-3.0.5.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\spring-tx-3.0.5.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\spring-web-3.0.5.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\spring-webmvc-3.0.5.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\stax-api-1.0-2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\validation-api-1.0.0.GA.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\xalan-2.6.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\xercesImpl-2.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\xml-apis-1.3.02.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\xmlParserAPIs-2.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-23 15:43:31.975
+!MESSAGE Could not delete D:\workspace\cb\spring-hibernate\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCDemo\WEB-INF\lib\xom-1.0.jar. May be locked by another process.
+
+!ENTRY org.eclipse.wst.server.core 2 0 2017-02-23 15:56:28.788
+!MESSAGE Project facet Java version 1.8 is not supported.
+
+!ENTRY org.eclipse.jdt.core 2 0 2017-02-23 16:14:47.018
+!MESSAGE The Java indexing could not index D:/workspace/cb/spring-hibernate/SpringMvc/WebContent/WEB-INF/lib/icu4j-2.6.1.jar|com/ibm/icu/impl/data/LocaleElements_zh__PINYIN.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jst.server.core 4 0 2017-02-23 16:21:54.424
+!MESSAGE Could not launch in profiling mode because no profilers are configured.
+
+!ENTRY org.eclipse.help.base 4 0 2017-02-23 16:31:54.066
+!MESSAGE Help index declared, but missing for plugin org.eclipse.wst.jsdt.doc.
+
+!ENTRY org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help documentation could not be indexed completely.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/core/jsdi/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/core/breakpoints/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_javaCompletionProposalComputer.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/dialogs/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/core/jsdi/event/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/ast/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/jsdoc/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_core_validationParticipant.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/refactoring/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/core/jsdi/connect/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/eval/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_documentationProvider.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/dom/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/text/java/hover/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_javaElementFilters.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/core/jsdi/request/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/launching/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_quickFixProcessors.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_javaEditorTextHovers.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_javaCompletionProposalSorters.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/libraries/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_core_inferrenceSupport.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/manipulation/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_JsGlobalScopeUIInitializer.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/rhino/debugger/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/refactoring/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/text/folding/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_core_codeFormatter.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/compiler/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/wizards/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/overview-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/core/model/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_quickAssistProcessors.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/search/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/actions/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/debug/rhino/debugger/shell/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_foldingStructureProviders.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_core_JsGlobalScopeContainerInitializer.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_debug_core_launchingConnectors.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/dom/rewrite/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_core_JsGlobalScopeVariableInitializer.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/util/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/text/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/search/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/jsdoc/msdn/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_core_sourcePathProvider.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/project/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_classpathAttributeConfiguration.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_debug_core_breakpointParticipants.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_JsGlobalScopeContainerPage.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/infer/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_queryParticipants.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/compiler/libraries/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/formatter/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/core/refactoring/descriptors/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_ui_javadocCompletionProcessor.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-02-23 16:32:01.426
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/api/org/eclipse/wst/jsdt/ui/text/java/package-summary.html cannot be opened.
+
+!ENTRY org.eclipse.wst.sse.ui 2 0 2017-02-23 17:07:13.646
+!MESSAGE The ''org.eclipse.wst.html.ui.proposalComputer.htmlTags'' proposal computer from the ''org.eclipse.wst.html.ui'' plug-in did not complete normally. The extension has thrown a runtime exception.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.xml.ui.internal.contentassist.AbstractXMLModelQueryCompletionProposalComputer.addAttributeValueProposals(AbstractXMLModelQueryCompletionProposalComputer.java:324)
+	at org.eclipse.wst.xml.ui.internal.contentassist.AbstractXMLCompletionProposalComputer.computeAttributeValueProposals(AbstractXMLCompletionProposalComputer.java:594)
+	at org.eclipse.wst.xml.ui.internal.contentassist.AbstractXMLCompletionProposalComputer.computeCompletionProposals(AbstractXMLCompletionProposalComputer.java:399)
+	at org.eclipse.wst.xml.ui.internal.contentassist.AbstractXMLCompletionProposalComputer.computeCompletionProposals(AbstractXMLCompletionProposalComputer.java:169)
+	at org.eclipse.wst.html.ui.internal.contentassist.HTMLTagsCompletionProposalComputer.computeCompletionProposals(HTMLTagsCompletionProposalComputer.java:100)
+	at org.eclipse.wst.sse.ui.internal.contentassist.CompletionProposalComputerDescriptor.computeCompletionProposals(CompletionProposalComputerDescriptor.java:284)
+	at org.eclipse.wst.sse.ui.internal.contentassist.CompletionProposalCategory.computeCompletionProposals(CompletionProposalCategory.java:290)
+	at org.eclipse.wst.sse.ui.contentassist.StructuredContentAssistProcessor.collectProposals(StructuredContentAssistProcessor.java:484)
+	at org.eclipse.wst.sse.ui.contentassist.StructuredContentAssistProcessor.computeCompletionProposals(StructuredContentAssistProcessor.java:255)
+	at org.eclipse.wst.sse.ui.internal.contentassist.CompoundContentAssistProcessor.computeCompletionProposals(CompoundContentAssistProcessor.java:127)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$5.run(ContentAssistant.java:1904)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.computeCompletionProposals(ContentAssistant.java:1902)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.computeProposals(CompletionProposalPopup.java:573)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.access$16(CompletionProposalPopup.java:570)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup$2.run(CompletionProposalPopup.java:505)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.showProposals(CompletionProposalPopup.java:499)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.showPossibleCompletions(ContentAssistant.java:1720)
+	at org.eclipse.wst.sse.ui.internal.StructuredTextViewer.doOperation(StructuredTextViewer.java:488)
+	at org.eclipse.ui.texteditor.ContentAssistAction$1.run(ContentAssistAction.java:82)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.texteditor.ContentAssistAction.run(ContentAssistAction.java:80)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:519)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:122)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+	at sun.reflect.GeneratedMethodAccessor41.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:247)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:229)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:149)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:499)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:210)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:286)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:507)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:558)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:378)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.access$0(KeyBindingDispatcher.java:324)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:86)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1262)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1060)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1085)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1070)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1112)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1108)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1529)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4722)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:343)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4610)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:339)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.wst.xml.core 4 4 2017-02-23 17:07:22.437
+!MESSAGE IStructuredDocumentRegion management failed.
+!STACK 0
+org.eclipse.wst.xml.core.internal.document.StructuredDocumentRegionManagementException: IStructuredDocumentRegion management failed.
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.removeStructuredDocumentRegion(XMLModelParser.java:2265)
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.replaceStructuredDocumentRegions(XMLModelParser.java:2339)
+	at org.eclipse.wst.xml.core.internal.document.DOMModelImpl.nodesReplaced(DOMModelImpl.java:737)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument._fireEvent(BasicStructuredDocument.java:600)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.fireStructuredDocumentEvent(BasicStructuredDocument.java:1198)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.internalReplaceText(BasicStructuredDocument.java:1979)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2423)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2408)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.access$2(JobSafeStructuredDocument.java:1)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument$3.run(JobSafeStructuredDocument.java:141)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.sse.ui.EditorExecutionContext.execute(EditorExecutionContext.java:149)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.replaceText(JobSafeStructuredDocument.java:144)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replace(BasicStructuredDocument.java:2368)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.access$0(JobSafeStructuredDocument.java:1)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument$1.run(JobSafeStructuredDocument.java:103)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.sse.ui.EditorExecutionContext.execute(EditorExecutionContext.java:149)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.replace(JobSafeStructuredDocument.java:106)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.replaceTextRange(DefaultDocumentAdapter.java:248)
+	at org.eclipse.swt.custom.StyledText.modifyContent(StyledText.java:7268)
+	at org.eclipse.swt.custom.StyledText.sendKeyEvent(StyledText.java:8111)
+	at org.eclipse.swt.custom.StyledText.doContent(StyledText.java:2481)
+	at org.eclipse.swt.custom.StyledText.handleKey(StyledText.java:5955)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5986)
+	at org.eclipse.swt.custom.StyledText$7.handleEvent(StyledText.java:5663)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1085)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1070)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1112)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1108)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1529)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4722)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:343)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4610)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:339)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+!SESSION 2017-02-24 09:31:14.195 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jst.jsf.apache.trinidad.tagsupport 4 0 2017-02-24 09:31:17.945
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.jsf.apache.trinidad.tagsupport [449]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.pagedesigner; bundle-version="[1.1.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.pagedesigner; bundle-version="1.6.200.v201409302017"; singleton:="true"
+       org.eclipse.jst.pagedesigner [463]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.core; bundle-version="[1.0.0,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.jsf.facelet.core 4 0 2017-02-24 09:31:18.133
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.jsf.facelet.core [454]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.core
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.jsf.facelet.ui 4 0 2017-02-24 09:31:18.164
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.jsf.facelet.ui [455]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.core; bundle-version="1.0.1"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.jsf.facesconfig.ui 4 0 2017-02-24 09:31:18.164
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.jsf.facesconfig.ui [457]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.core; bundle-version="[1.1.0,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.jsf.ui 4 0 2017-02-24 09:31:18.164
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.jsf.ui [459]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.core; bundle-version="[1.1.0,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.pagedesigner 4 0 2017-02-24 09:31:18.180
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.pagedesigner [463]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.core; bundle-version="[1.0.0,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jst.pagedesigner.jsf.ui 4 0 2017-02-24 09:31:18.180
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.pagedesigner.jsf.ui [464]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.pagedesigner; bundle-version="[1.1.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.pagedesigner; bundle-version="1.6.200.v201409302017"; singleton:="true"
+       org.eclipse.jst.pagedesigner [463]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.core; bundle-version="[1.0.0,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.m2e.wtp.jsf 4 0 2017-02-24 09:31:18.180
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.m2e.wtp.jsf [545]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.core; bundle-version="1.3.4"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-02-24 09:32:29.086
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Admin'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-02-24 09:59:57.548
+!MESSAGE Marker id 1234 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 1234 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:57)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:237)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:223)
+	at org.eclipse.wst.validation.internal.TaskListUtility.getValidationTasks(TaskListUtility.java:255)
+	at org.eclipse.wst.validation.internal.TaskListUtility.getValidationTasks(TaskListUtility.java:285)
+	at org.eclipse.wst.validation.internal.TaskListUtility.getValidationTasks(TaskListUtility.java:330)
+	at org.eclipse.wst.validation.internal.TaskListUtility.removeTaskSubset(TaskListUtility.java:423)
+	at org.eclipse.wst.validation.internal.TaskListUtility.removeTaskSubset(TaskListUtility.java:411)
+	at org.eclipse.wst.validation.internal.operations.WorkbenchReporter.removeMessageSubset(WorkbenchReporter.java:184)
+	at org.eclipse.wst.validation.internal.operations.WorkbenchReporter.removeMessageSubset(WorkbenchReporter.java:179)
+	at org.eclipse.wst.validation.internal.InternalValidatorManager.removeOperationTasks(InternalValidatorManager.java:99)
+	at org.eclipse.wst.validation.internal.operations.ValidationOperation.removeOldMessages(ValidationOperation.java:1056)
+	at org.eclipse.wst.validation.internal.operations.ValidationOperation.launchJobs(ValidationOperation.java:1357)
+	at org.eclipse.wst.validation.internal.operations.ValidationOperation.validate(ValidationOperation.java:835)
+	at org.eclipse.wst.validation.internal.operations.ValidationOperation.run(ValidationOperation.java:654)
+	at org.eclipse.wst.validation.internal.operations.ValidationBuilder.build(ValidationBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2017-02-24 09:59:57.548
+!MESSAGE Marker id 1234 not found.

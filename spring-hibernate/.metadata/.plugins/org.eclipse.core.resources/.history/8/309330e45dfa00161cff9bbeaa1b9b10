@@ -1,0 +1,24 @@
+package com.scope.banking.entities;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="MakeMyTrip_Flight")
+public class Flight {
+
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@Column(name="Flight_code")
+	private int flightCode;
+	@Column(name="Service_Provider", nullable=false, length=25)
+	private String serviceProvider;
+	@Column(name="Capacity", nullable=false, length=50)
+	private int capacity;
+	@Column(name="Flight_Status")
+	private FlightStatus flightStatus;
+}

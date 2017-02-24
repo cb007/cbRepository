@@ -1,0 +1,9 @@
+package com.scope.banking.entities;
+
+@Entity
+public class Flight {
+
+	private int flightCode;
+	private String serviceProvider;
+	private int capacity;
+}

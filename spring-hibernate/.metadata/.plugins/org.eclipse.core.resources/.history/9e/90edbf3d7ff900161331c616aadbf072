@@ -1,0 +1,9 @@
+package com.scope.banking.entities;
+
+public class AddressProof {
+
+	private String type;
+	private String number;
+	
+	
+}

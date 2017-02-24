@@ -1,0 +1,13 @@
+package com.scope.banking.entities;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="MakeMyTrip_Flight")
+public class Flight {
+
+	private int flightCode;
+	private String serviceProvider;
+	private int capacity;
+}

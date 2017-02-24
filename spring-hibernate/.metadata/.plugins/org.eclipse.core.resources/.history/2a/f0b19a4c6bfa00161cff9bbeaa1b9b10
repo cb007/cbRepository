@@ -1,0 +1,22 @@
+package com.scope.banking.entities;
+
+import java.util.Date;
+import java.util.List;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="Order")
+public class Order {
+
+	@Id
+	@Column(name="Order_Id", nullable=false)
+	private int orderId;
+	@Column(name="Order_Date", nullable=false)
+	private Date orderDate;
+	private String orderBy;
+	private List<Product> productList;
+}

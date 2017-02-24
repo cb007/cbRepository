@@ -1,0 +1,11 @@
+package com.scope.banking.entities;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "Guest_User")
+public class GuestUser extends User {
+
+	
+}

@@ -1,0 +1,13 @@
+package com.scope.banking.entities;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "`User`")
+public class User {
+
+	private long mobileNo;
+	private String email;
+	private String name;
+}

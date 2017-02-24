@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Welcome To The Registration Page</title>
+<link type="text/css" rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+<section>
+<form>
+<fieldset>
+<legend>Customer Form</legend>
+<input type="number" placeholder="Customer Id">
+<input type="text" placeholder="Name">
+<input type="text" placeholder="Customer Id">
+<input type="date" placeholder="Customer Id">
+<input type="tel" placeholder="Customer Id">
+<input type="email" placeholder="Customer Id">
+</fieldset>
+</form>
+</section>	
+ 
+</body>
+</html>

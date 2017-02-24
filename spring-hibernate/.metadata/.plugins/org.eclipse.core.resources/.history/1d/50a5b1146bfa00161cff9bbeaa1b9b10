@@ -1,0 +1,9 @@
+package com.scope.banking.entities;
+
+public class Order {
+
+	private int orderId;
+	private Date orderDate;
+	private String orderBy;
+	private List<Product> productList;
+}

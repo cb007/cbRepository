@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Welcome To The Registration Page</title>
+<link type="text/css" rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+	<div>
+		<p>${form}</p>
+	</div>
+<form>  
+<input type="text" name="Name">Name</input><br/>  
+<input type="text" name="Email"><br/></input>  
+<input type="password" name="Password"/><br/>  
+<input type="submit" value="register"/>  
+</form> 
+</body>
+</html>

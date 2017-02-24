@@ -1,0 +1,65 @@
+section
+{
+	width:40%;
+	height:50px;
+	margin-left: 5%;
+	
+	float:left;
+}
+
+div
+{
+	width:80%;
+	height:200px;
+	margin-left: 15%;
+	
+}
+p
+{
+	margin-left: 26%;
+}
+img
+{
+	width:100px;
+	height:100px;
+	margin-left: 1%;
+}
+.menu
+{
+	width:80%;
+	height:200px;
+	margin-left: 32%;
+}
+ul li
+{
+	display: inline;
+	text-indent: none;
+	margin-right: 3%;
+}
+ul li a
+{
+	text-decoration: none;
+	
+}
+ul li a:HOVER
+{
+	background-color: blue;
+	color:white;
+}
+fieldset
+{
+	border:5px solid red;
+}
+
+legend
+{
+	text-align:center;
+}
+
+
+input
+{
+	width:90%;
+	margin:15%;
+	
+}

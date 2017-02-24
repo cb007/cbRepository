@@ -1,0 +1,37 @@
+section
+{
+	width:10%;
+	height:50px;
+	margin-left: 5%;
+	
+	float:left;
+}
+div
+{
+	width:200%;
+	height:200px;
+	margin-left: 15%;
+	
+}
+p
+{
+	margin-left: 25%;
+}
+img
+{
+	width:100px;
+	height:100px;
+	margin-left: 1%;
+}
+.menu
+{
+	width:80%;
+	height:200px;
+	margin-left: 30%;
+}
+ul li
+{
+	display: inline;
+	text-indent: none;
+	margin-right: 2%;
+}

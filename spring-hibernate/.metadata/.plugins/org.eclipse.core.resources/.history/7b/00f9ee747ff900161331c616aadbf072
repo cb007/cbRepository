@@ -1,0 +1,10 @@
+package com.scope.banking.utility;
+
+import org.springframework.context.ApplicationContextAware;
+
+public class AddressProofCreator implements ApplicationContextAware{
+	
+	
+
+	
+}

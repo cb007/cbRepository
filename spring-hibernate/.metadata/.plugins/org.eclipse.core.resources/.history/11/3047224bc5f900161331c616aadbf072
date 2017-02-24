@@ -1,0 +1,25 @@
+section
+{
+	width:40%;
+	margin-left: 25%;
+	
+}
+
+fieldset
+{
+	border:2px solid red;
+}
+
+legend
+{
+	text-align:center;
+}
+
+
+input
+{
+	width:40%;
+	margin:5%;
+	padding-right:5%;
+	
+}

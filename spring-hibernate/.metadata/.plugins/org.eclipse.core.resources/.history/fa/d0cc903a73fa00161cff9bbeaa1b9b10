@@ -1,0 +1,7 @@
+package com.scope.banking.entities;
+
+public class User {
+
+	private long mobileNo;
+	private String email;
+}

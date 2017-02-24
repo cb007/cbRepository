@@ -1,0 +1,19 @@
+package com.scope.banking.entities;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "`User`")
+public class User {
+
+	@Id
+	@Column(name = "Order_Id", nullable = false)
+	private long mobileNo;
+	private String email;
+	private String name;
+}

@@ -1,0 +1,5 @@
+package com.scope.banking.utility;
+
+public class AddressProofCreator {
+
+}

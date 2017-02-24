@@ -1,0 +1,32 @@
+package com.scope.banking.utilities;
+
+import java.util.Date;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.scope.banking.entities.Customer;
+import com.scope.banking.interfaces.CustomerDao;
+
+public class MainApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ApplicationContext applicationContext = new ClassPathXmlApplicationContext(
+				"application-context.xml");
+
+		CustomerDao customerDao=(CustomerDao) applicationContext.getBean("customerDaoImpl");
+		System.out.println("customerDao instance created:"+customerDao);
+		Customer customer=(Customer) applicationContext.getBean("customer");
+		System.out.println("customer instance created:"+customer);
+		customer.setCustomerId(1479825);
+		customer.setName("sairam");
+		customer.setDob(new Date(110, 07, 07));
+		customer.setAddress("chennai");
+		customerDao.addCustomer(customer);
+		System.out.println("Customer details inserted successfully");
+		customerDao.getCustomerById(1479825);
+		System.out.println("Customer details fetched successfully");
+	}
+
+}

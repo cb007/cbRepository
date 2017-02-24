@@ -17,6 +17,8 @@
       <!-- Mapping files is required for xml configuration-->
      <!-- <mapping resource="com/cog/resources/*.hbm.xml"/>  -->
      <mapping class="com.scope.banking.entities.Flight"/>
+      <mapping class="com.scope.banking.entities.Order"/>
+       <mapping class="com.scope.banking.entities.Product"/>
      
     
 </session-factory>

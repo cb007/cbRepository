@@ -9,8 +9,10 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
+import com.scope.banking.entities.GuestUser;
 import com.scope.banking.entities.Order;
 import com.scope.banking.entities.Product;
+import com.scope.banking.entities.RegisteredUser;
 
 public class MainApp {
 
@@ -29,7 +31,7 @@ public class MainApp {
 		 * flight.setCapacity(200); flight.setDop(new Date(110, 07, 11));
 		 * flight.setFlightStatus(FlightStatus.Active);
 		 */
-		Order order = new Order();
+		/*Order order = new Order();
 		order.setOrderDate(new Date(87, 10, 10));
 		order.setOrderBy("Customer");
 		List<Product> productList = new ArrayList<Product>();
@@ -46,9 +48,24 @@ public class MainApp {
 		product.setOrder(order);
 		productList.add(product);
 
-		order.setProductList(productList);
+		order.setProductList(productList);*/
+		
+		GuestUser guestUser=new GuestUser();
+		guestUser.setMobileNo(9600147576L);
+		guestUser.setEmail("kpb@sc.com");
+		guestUser.setName("customer1");
+		guestUser.setCount(1);
+		
+		RegisteredUser registeredUser=new RegisteredUser();
+		registeredUser.setMobileNo(9500010000L);
+		registeredUser.setEmail("kpb@sc.com");
+		registeredUser.setName("customer1");
+		registeredUser.setUserId("134654");
+		registeredUser.setPassword("******");
+		
 		try {
-			session.save(order);
+			session.save(guestUser);
+			session.save(registeredUser);
 			session.getTransaction().commit();
 		} catch (HibernateException e) {
 			// TODO Auto-generated catch block

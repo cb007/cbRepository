@@ -14,7 +14,8 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "SCB_Order")
+@Table(name = "`Order`")
+// use backticks to specify keyword as table names
 public class Order {
 
 	@Id

@@ -19,6 +19,9 @@
      <mapping class="com.scope.banking.entities.Flight"/>
       <mapping class="com.scope.banking.entities.Order"/>
        <mapping class="com.scope.banking.entities.Product"/>
+        <mapping class="com.scope.banking.entities.User"/>
+      <mapping class="com.scope.banking.entities.GuestUser"/>
+       <mapping class="com.scope.banking.entities.RegisteredUser"/>
      
     
 </session-factory>

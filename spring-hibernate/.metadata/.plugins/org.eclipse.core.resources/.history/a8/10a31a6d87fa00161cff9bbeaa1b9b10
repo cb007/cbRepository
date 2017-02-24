@@ -1,0 +1,18 @@
+package com.scope.banking.dao;
+
+import org.hibernate.SessionFactory;
+import org.springframework.stereotype.Repository;
+
+import com.scope.banking.entities.Customer;
+
+@Repository
+public class CustomerDaoImpl implements CustomerDao {
+
+	private SessionFactory sessionFactory;
+	@Override
+	public void addCustomer(Customer customer) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

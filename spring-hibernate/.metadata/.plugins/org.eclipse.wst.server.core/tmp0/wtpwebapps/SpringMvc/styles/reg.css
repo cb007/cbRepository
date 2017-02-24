@@ -1,6 +1,6 @@
 section
 {
-	width:40%;
+	width:25%;
 	margin-left: 25%;
 	
 }
@@ -8,6 +8,8 @@ section
 fieldset
 {
 	border:2px solid red;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 legend
@@ -19,7 +21,8 @@ legend
 input
 {
 	width:40%;
-	margin:5%;
+	margin-left: 10%;
+	margin-right: 20%;
 		
 }
 .errors

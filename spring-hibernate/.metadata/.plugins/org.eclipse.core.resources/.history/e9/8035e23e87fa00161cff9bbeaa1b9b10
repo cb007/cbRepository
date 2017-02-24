@@ -1,0 +1,17 @@
+package com.scope.banking.dao;
+
+import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.scope.banking.entities.Customer;
+
+@Repository
+public class CustomerDaoImpl implements CustomerDao {
+
+	@Override
+	public void addCustomer(Customer customer) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

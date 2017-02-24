@@ -1,0 +1,22 @@
+package com.scope.banking.services;
+
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Isolation;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.scope.banking.dao.CustomerDao;
+import com.scope.banking.entities.Customer;
+
+@Service
+@Transactional(propagation=Propagation.REQUIRED,isolation=Isolation.READ_COMMITTED,rollbackFor={RuntimeException.class},readOnly=true)
+public class CustomerServiceImpl implements CustomerService {
+
+	private CustomerDao CustomerDao;
+	@Override
+	public void addCustomer(Customer customer) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

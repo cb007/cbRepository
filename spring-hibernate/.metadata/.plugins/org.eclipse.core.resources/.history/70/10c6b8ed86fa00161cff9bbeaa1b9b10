@@ -1,0 +1,5 @@
+package com.scope.banking.dao;
+
+public interface CustomerDao {
+
+}

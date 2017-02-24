@@ -1,0 +1,29 @@
+section
+{
+	width:25%;
+	margin-left: 25%;
+	
+}
+
+fieldset
+{
+	border:1px solid red;
+}
+
+legend
+{
+	text-align:center;
+}
+
+
+input
+{
+	width:40%;
+	margin:5%;
+		
+}
+.errors
+{
+	color: red;
+	font-style: normal;
+}

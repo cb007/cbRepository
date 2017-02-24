@@ -1,0 +1,16 @@
+package com.scope.banking.services;
+
+import org.springframework.stereotype.Service;
+
+import com.scope.banking.entities.Customer;
+
+@Service
+public class CustomerServiceImpl implements CustomerService {
+
+	@Override
+	public void addCustomer(Customer customer) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

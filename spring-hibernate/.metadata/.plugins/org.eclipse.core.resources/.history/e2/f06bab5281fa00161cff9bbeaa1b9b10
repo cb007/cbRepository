@@ -1,0 +1,9 @@
+package com.scope.banking.entities;
+
+public class State {
+
+	private int code;
+	private String name;
+	
+	
+}

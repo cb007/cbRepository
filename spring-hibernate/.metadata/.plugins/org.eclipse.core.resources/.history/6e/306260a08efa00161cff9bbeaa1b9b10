@@ -1,0 +1,5 @@
+package com.scope.banking.aspects;
+
+public class LoggingAspect {
+
+}

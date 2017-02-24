@@ -1,0 +1,13 @@
+package com.scope.banking.services;
+
+import com.scope.banking.entities.Customer;
+
+public class CustomerServiceImpl implements CustomerService {
+
+	@Override
+	public void addCustomer(Customer customer) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

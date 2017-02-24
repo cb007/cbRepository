@@ -1,11 +1,15 @@
 package com.scope.banking.utilities;
 
+import java.util.Iterator;
 import java.util.List;
 
+import org.hibernate.Criteria;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
+import org.hibernate.criterion.Projection;
+import org.hibernate.criterion.Projections;
 
 import com.scope.banking.entities.Flight;
 
@@ -23,6 +27,26 @@ public class MainApp {
 		for(Flight flight:(List<Flight>)query.list())
 		{
 			System.out.println("Flight Details:"+flight);
+		}
+		
+		//Using Criteria API
+		Criteria criteria=session.createCriteria(Flight.class);
+		//To get specific column
+		criteria.setProjection(Projections.property("serviceProvider"));
+		for(String serviceProvider:(List<String>)criteria.list())
+		{
+			System.out.println("Service Provider column projection:"+serviceProvider);
+		}
+		
+		
+		//Using criteria API to retrieve list projection
+		
+		Query query2=session.createQuery("select f.serviceProvider,f.capacity "+ "from Flight f");
+		Iterator itr=query2.iterate();
+		while(itr.hasNext())
+		{
+			Object[] flight=(Object []) itr.next();
+			System.out.println(flight[0]+"\t" +flight[1]);
 		}
 		// Begin transaction
 		/*session.beginTransaction();

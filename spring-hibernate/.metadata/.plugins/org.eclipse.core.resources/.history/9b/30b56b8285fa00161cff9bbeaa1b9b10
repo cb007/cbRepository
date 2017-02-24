@@ -1,0 +1,6 @@
+package com.scope.banking.services;
+
+public interface CustomerService {
+
+	void addCustomer(Customer customer);
+}

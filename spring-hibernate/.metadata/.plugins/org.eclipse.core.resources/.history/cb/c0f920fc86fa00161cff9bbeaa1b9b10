@@ -1,0 +1,13 @@
+package com.scope.banking.dao;
+
+import com.scope.banking.entities.Customer;
+
+public class CustomerDaoImpl implements CustomerDao {
+
+	@Override
+	public void addCustomer(Customer customer) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

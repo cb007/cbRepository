@@ -1,0 +1,6 @@
+package com.scope.banking.dao;
+
+public interface CustomerDao {
+
+	void addCustomer(Customer customer);
+}

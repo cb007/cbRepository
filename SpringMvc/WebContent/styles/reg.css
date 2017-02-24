@@ -18,7 +18,12 @@ legend
 
 input
 {
-	width:30%;
+	width:40%;
 	margin:5%;
-	
+		
+}
+.errors
+{
+	color: red;
+	font-style: normal;
 }

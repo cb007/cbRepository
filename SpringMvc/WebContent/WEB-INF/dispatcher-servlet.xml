@@ -23,4 +23,10 @@
  	<property name="suffix" value=".jsp"></property>
  </bean>
  
+<!-- ==================== Validation definitions ==================== -->
+	<bean id="configurationLoader"
+		class="org.springmodules.validation.bean.conf.loader.annotation.AnnotationBeanValidationConfigurationLoader" />
+	<bean id="validator" class="org.springmodules.validation.bean.BeanValidator"
+		xsi:configurationLoader-ref="configurationLoader" />
+ 
 </beans>
